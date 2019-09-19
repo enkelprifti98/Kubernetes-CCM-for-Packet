@@ -1,4 +1,4 @@
-# Kubernetes-CCM-for-Packet
+# Kubernetes CCM (Cluster Controller Manager) for Packet
 
 ## Introduction:
 
