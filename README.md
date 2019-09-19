@@ -58,7 +58,7 @@ stringData:
 
 Then run:
 ```bash
-kubectl apply -f packet-cloud-config.yaml`
+kubectl apply -f packet-cloud-config.yaml
 ```
 
 You can confirm that the secret was created in the `kube-system` with the following:
@@ -72,5 +72,5 @@ packet-cloud-config   Opaque                                1         2m
 You can apply the rest of the CCM by running:
 
 ```bash
-kubectl apply -f v0.0.4/deployment.yaml
+kubectl apply -f deployment.yaml
 ```
