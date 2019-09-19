@@ -10,7 +10,7 @@ The CCM is great when paired with the Cluster Autoscaler as you don’t need to 
 
 ## Requirements:
 
-You’ll need to clone the Packet CCM [repository](https://github.com/packethost/packet-ccm) to get the necessary yaml deployment files. The files are located in the releases [folder](https://github.com/packethost/packet-ccm/tree/master/deploy/releases/v0.0.4)
+You’ll need to clone the Packet CCM [repository](https://github.com/packethost/packet-ccm) to get the necessary yaml deployment files. The files are located in the releases [folder](https://github.com/packethost/packet-ccm/tree/master/deploy/releases/v0.0.4).
 
 At the current state of Kubernetes, running the CCM requires a few things. Please read through the requirements carefully as they are critical to running the CCM on a Kubernetes cluster.
 
