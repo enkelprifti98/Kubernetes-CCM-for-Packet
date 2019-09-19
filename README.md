@@ -39,7 +39,7 @@ To get project ID click into the project that your cluster is under and select "
 Under General you will see "Project ID". Once you have this information you will be able to fill in the config needed for the CCM.
 
 #### Create config
-Copy [v0.0.4/secret.yaml](v0.0.4/secret.yaml) to releases/packet-cloud-config.yaml:
+Copy [v0.0.4/secret.yaml](https://github.com/packethost/packet-ccm/blob/master/deploy/releases/v0.0.4/secret.yaml) to releases/packet-cloud-config.yaml:
 ```bash
 cp v0.0.4/secret.yaml ./packet-cloud-config.yaml
 ```
