@@ -30,7 +30,7 @@ By default, the kubelet will name nodes based on the node's hostname.
 Packet's device hostnames are set based on the name of the device.
 It is important that the Kubernetes node name matches the device name.
 
-Deployment
+## Deployment
 
 ### Token
 To run the Packet CCM, you need your Packet API key and project ID that your cluster is running in.
