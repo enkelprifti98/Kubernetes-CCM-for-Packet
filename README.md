@@ -19,7 +19,7 @@ Recommended versions of Packet CCM based on your Kubernetes version:
 * Packet CCM version v0.0.4 supports Kubernetes version >=v1.10
 
 ### --cloud-provider=external
-All `kubelets` (config file located in /etc/default/) in your cluster **MUST** set the flag `--cloud-provider=external`. The `kube-apiserver` and `kube-controller-manager` (both located in /etc/kubernetes/manifests) must **NOT** set the flag   `--cloud-provider` which will default them to use no cloud provider natively.
+All `kubelets` (config file located in /etc/default/) in your cluster **MUST** set the flag `--cloud-provider=external`. The `kube-apiserver` and `kube-controller-manager` (both located in /etc/kubernetes/manifests) must **NOT** set the flag `--cloud-provider` which will default them to use no cloud provider natively.
 
 **WARNING**: setting the kubelet flag `--cloud-provider=external` will taint all nodes in a cluster with `node.cloudprovider.kubernetes.io/uninitialized`.
 The CCM will then untaint those nodes when it initializes them.
